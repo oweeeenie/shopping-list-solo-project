@@ -29,6 +29,10 @@ body {
     padding: 30px;
     width: 150px;
     height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
 #list-container {
@@ -60,4 +64,24 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
+}
+
+.fruit-button img {
+    height: auto;
+    width: 145px;
+}
+
+.fruit-button {
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 4px 4px 10px aqua;
+}
+
+#footer-container {
+    background-color:#AFC7B9;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;;
+    height: 30px;
 }
